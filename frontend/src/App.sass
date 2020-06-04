@@ -1,0 +1,54 @@
+@charset "utf-8"
+
+@media screen and (max-width: 769px)
+  .reverse-column-order
+    display: flex
+    flex-direction: column-reverse
+
+.navbar
+  &.is-transparent
+    background-color: transparent
+    background-image: none
+
+input:focus:required:invalid:focus
+  border-color: red
+
+// From https://github.com/jgthms/bulma/issues/218
+.card-equal-height
+  display: flex
+  flex-direction: column
+  height: 100%
+
+  & .card-footer
+    margin-top: auto
+
+.card-image.is-poster
+  display: flex
+  border-bottom: 1px solid #ededed
+
+.is-placeholder
+  display: flex
+  text-align: center
+  align-items: center
+  justify-content: center
+  padding: 1em
+  background: rgb(0,0,0)
+  background: linear-gradient(45deg, #ed4d50 0%, #dee46e 100%)
+  overflow: hidden
+
+.is-details ul li
+  margin-bottom: 1em
+
+.is-details ul li ul li
+  margin-bottom: 0
+
+.icon
+  &.has-text-danger
+    &.link:hover
+      color: #ec4145 !important
+
+$red: #ed4d50
+
+@import '../node_modules/bulma/bulma.sass'
+@import '../node_modules/bulma-extensions/bulma-divider/dist/css/bulma-divider.sass'
+@import '../node_modules/bulma-extensions/bulma-checkradio/dist/css/bulma-checkradio.sass'

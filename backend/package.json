@@ -1,0 +1,47 @@
+{
+  "name": "flixstash-be",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "NODE_ENV=development ts-node-dev src/index.ts",
+    "lint": "eslint --ext .ts .",
+    "test": "NODE_ENV=test jest --verbose --runInBand",
+    "start": "NODE_ENV=production node build/index.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.4",
+    "@types/express-sslify": "^1.2.1",
+    "@types/hapi__joi": "^16.0.12",
+    "@types/helmet": "0.0.47",
+    "@types/jest": "^25.2.3",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.21",
+    "@types/supertest": "^2.0.9",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "flixstash-common": "file:../common",
+    "jest": "^25.5.4",
+    "mongodb-memory-server": "^6.6.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.5.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  }
+}
