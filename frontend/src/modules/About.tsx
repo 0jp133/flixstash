@@ -91,7 +91,14 @@ export const About: React.FC = () => {
             ideas, etc.
           </p>
           <p>
-            The source code can be find on GitHub : <b>coming soon</b>
+            The source code can be found on GitHub :{' '}
+            <a
+              href="https://github.com/0jp133/flixstash"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/0jp133/flixstash
+            </a>
           </p>
           <p>
             Note: since this app is simply a demo, the live database can be
