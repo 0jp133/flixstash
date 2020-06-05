@@ -71,5 +71,5 @@ You should be able to view the app: http://localhost:3000
 - [ ] Add upcoming movies.
 - [ ] Add new releases.
 - [ ] Add better error handling on the backend.
-- [ ] Switch to an auth provider, like Okta of Firebase Auth.
+- [ ] Switch to an auth provider, like Okta or Firebase Auth.
 - [ ] Work on UI and theme colors.
